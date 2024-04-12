@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <style>
+      @font-face {
+        font-family: "Figtree";
+        src: url("./assets/fonts/Figtree-VariableFont_wght.ttf")
+          format("truetype");
+        font-style: normal;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      body {
+        background-color: hsl(47, 88%, 63%);
+        font-family: "Figtree", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+      }
+
+      main {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      section {
+        width: 250px;
+        border-radius: 15px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 15px;
+        border: 1px solid hsl(0, 0%, 7%);
+        box-shadow: 5px 5px hsl(0, 0%, 7%);
+      }
+
+      .section1 img {
+        width: 100%;
+        border-radius: 8px;
+      }
+
+      .section2 .p1 {
+        background-color: hsl(47, 88%, 63%);
+        font-weight: 800;
+        width: fit-content;
+        padding: 3px 7px;
+        border-radius: 3px;
+      }
+
+      .section2 .p1,
+      .section2 .p2,
+      .section2 .p3,
+      .section3 span {
+        font-size: 12px;
+      }
+
+      .section2 .p3 {
+        color: hsl(0, 0%, 50%);
+        line-height: 0.5cm;
+        margin-bottom: 10px;
+      }
+
+      .section2 h3 {
+        font-weight: 800;
+      }
+
+      .section3 {
+        display: inline-flex;
+        align-items: center;
+      }
+
+      .section3 img {
+        width: 25px;
+        margin-right: 5px;
+      }
+
+      .section3 span {
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="section1">
+          <img src="./assets/images/illustration-article.svg" alt="" />
+        </div>
+
+        <div class="section2">
+          <p class="p1">Learning</p>
+          <p class="p2">Published 21 Dec 2023</p>
+
+          <h3>HTML & CSS foundations</h3>
+
+          <p class="p3">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+
+        <div class="section3">
+          <img src="./assets/images/image-avatar.webp" alt="" />
+          <span>Greg Hooper</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/eltonbata">Your Name Here</a>.
+    </footer>
+  </body>
+</html>
